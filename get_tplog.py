@@ -17,7 +17,7 @@ def get_tplog(url):
             except Exception as e:
                 print(e)
     return 1
-if get_tplog('http://oa.smeoa.com'):
+if get_tplog('http://www.xx.com'):
     print('over!')
 
 
@@ -33,5 +33,5 @@ if get_tplog('http://oa.smeoa.com'):
     #     return url_list
     #
     #
-    # print(get_url('http://oa.smeoa.com/Runtime/Logs/Home/19_0{}_{}.log'))
+    # print(get_url('http://www.xx.com/Runtime/Logs/Home/19_0{}_{}.log'))
 
